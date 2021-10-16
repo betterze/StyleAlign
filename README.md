@@ -12,7 +12,7 @@
 ![](img/teaser.png)
 
 > **StyleAlign: Analysis and Applications of Aligned StyleGAN Models**<br>
-> Zongze Wu, Yotam Nitzan,Eli Shechtman, Dani Lischinski <br>
+> Zongze Wu, Yotam Nitzan, Eli Shechtman, Dani Lischinski <br>
 >
 >**Abstract:** In this paper, we perform an in-depth study of the properties and applications of \emph{aligned generative models}.
 We refer to two models as aligned if they share the same architecture, and one of them (the \emph{child}) is obtained from the other (the \emph{parent}) via fine-tuning to another domain, a common practice in transfer learning.
