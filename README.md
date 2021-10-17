@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <a><img src='https://github.com/betterze/StyleAlign/tree/main/img/dog2cat0.gif' width=600 ></a
+  <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/dog2cat0.gif' width=600 ></a
 <a><img src='https://github.com/orpatashnik/StyleCLIP/blob/main/img/StyleCLIP_gif.gif' width=600 ></a </p>
 
 > **StyleAlign: Analysis and Applications of Aligned StyleGAN Models**<br>
