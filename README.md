@@ -6,12 +6,8 @@
   <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/dog2cat0.gif'   width=400  ></a
     <a> &nbsp;&nbsp;&nbsp;</a
     <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/ffhq2dog0.gif'   width=400 ></a
-    
-    <br>
-    Model Progress from Dog to Cat
-    
 </p> 
-    
+  <p align="center">  Model Progress from Dog to Cat </p> 
 
 > **StyleAlign: Analysis and Applications of Aligned StyleGAN Models**<br>
 > Zongze Wu, Yotam Nitzan, Eli Shechtman, Dani Lischinski <br>
