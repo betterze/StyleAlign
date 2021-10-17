@@ -25,17 +25,17 @@ We demonstrate qualitatively and quantitatively that our approach yields state-o
 ## Shared Semantic Controls Between Parent and Child Models
 
 <p align="center">
-  <a href="https://youtu.be/to0uCeTMMoM?t=21"><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2cartoon2.jpg'   width=800  ></a
+  <a href="https://youtu.be/to0uCeTMMoM?t=21"><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2cartoon2.gif'   width=800  ></a
 </p> 
 <p align="center">
-  <a href="https://youtu.be/to0uCeTMMoM?t=21"><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2afhq2.jpg'   width=800  ></a
+  <a href="https://youtu.be/to0uCeTMMoM?t=21"><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2afhq2.gif'   width=800  ></a
 </p> 
     
 ## Cross-domain Image Morphing
 
 <p align="center">
-  <a ><img src='https://github.com/betterze/StyleAlign/blob/main/translate/ffhq2dog.gif'   width=400  ></a
-    <a ><img src='https://github.com/betterze/StyleAlign/blob/main/translate/ffhq2mega.gif'   width=400  ></a
+  <a ><img src='https://github.com/betterze/StyleAlign/blob/main/translate/ffhq2dog.jpg'   width=400  ></a
+    <a ><img src='https://github.com/betterze/StyleAlign/blob/main/translate/ffhq2mega.jpg'   width=400  ></a
 </p> 
 ## Cross-domain Image Morphing
 
