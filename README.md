@@ -3,7 +3,10 @@
 
 
 <p align="center">
-  <a><img src='https://github.com/orpatashnik/StyleCLIP/blob/main/img/StyleCLIP_gif.gif' width=600 ></a><a><img src='https://github.com/orpatashnik/StyleCLIP/blob/main/img/StyleCLIP_gif.gif' width=600 ></a>
+  <a><img src='https://github.com/orpatashnik/StyleCLIP/blob/main/img/StyleCLIP_gif.gif' width=600 ></a>
+  
+  https://user-images.githubusercontent.com/6877923/125816983-610905ce-dd7a-4cbc-8559-e1e61ed5e33c.mp4
+
   
   
 </p>
