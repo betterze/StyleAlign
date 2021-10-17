@@ -32,7 +32,7 @@ We demonstrate qualitatively and quantitatively that our approach yields state-o
   <a href="https://youtu.be/to0uCeTMMoM?t=21"><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2afhq2.gif'   width=800  ></a
 </p> 
     
-## Cross-domain Image Morphing
+## Image Translation
 
 <p align="center">
   <a ><img src='https://github.com/betterze/StyleAlign/blob/main/translate/ffhq2dog.jpg'   width=800  ></a
