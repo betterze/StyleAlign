@@ -3,8 +3,10 @@
 
 
 <p align="center">
-  <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/dog2cat0.gif' width=600 ></a
-<a><img src='https://github.com/orpatashnik/StyleCLIP/blob/main/img/StyleCLIP_gif.gif' width=600 ></a </p>
+  <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/dog2cat0.gif' width=400 ></a
+
+    
+    </p>
 
 > **StyleAlign: Analysis and Applications of Aligned StyleGAN Models**<br>
 > Zongze Wu, Yotam Nitzan, Eli Shechtman, Dani Lischinski <br>
