@@ -38,7 +38,7 @@ We demonstrate qualitatively and quantitatively that our approach yields state-o
   <a href="https://youtu.be/to0uCeTMMoM?t=40"><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/dog2cat2_c.gif'   width=800  ></a
 </p> 
 <p align="center">
-  <a href="https://youtu.be/to0uCeTMMoM?t=40"><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/ffhq2dog2_c.gif'   width=800  ></a
+  <a href="https://youtu.be/to0uCeTMMoM?t=68"><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/ffhq2dog2_c.gif'   width=800  ></a
 </p>  
     
     
