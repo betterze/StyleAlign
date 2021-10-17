@@ -22,7 +22,7 @@ We demonstrate qualitatively and quantitatively that our approach yields state-o
 
     
     
-## Shared Semantic Controls Between Parent and Child Models
+## Shared Semantic Controls Between Parent and Child Models
 
 <p align="center">
   <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/dog2cat0.gif'   width=400  ></a
