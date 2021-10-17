@@ -27,7 +27,10 @@ We demonstrate qualitatively and quantitatively that our approach yields state-o
 <p align="center">
   <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2cartoon2.gif'   width=800  ></a
 </p> 
-    
+
+    <p align="center">
+  <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2afhq2.gif'   width=800  ></a
+</p> 
     
     
     
