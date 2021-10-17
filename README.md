@@ -1,11 +1,11 @@
 # StyleAlign: Analysis and Applications of Aligned StyleGAN Models
 
-
+<p align="center">
 <figure>
   <img src="https://github.com/betterze/StyleAlign/blob/main/img/model_progress/dog2cat0.gif" alt="Trulli" style="width:400">
   <figcaption>Fig.1 - fasdgfasdgd.</figcaption>
 </figure>
-
+</p>
 
 
 <p align="center">
