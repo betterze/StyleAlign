@@ -32,7 +32,7 @@ We demonstrate qualitatively and quantitatively that our approach yields state-o
 </p> 
     
     
-## Shared Semantic Controls Between Parent and Child Models
+## Cross-domain Image Morphing
 
 <p align="center">
   <a href="https://youtu.be/to0uCeTMMoM?t=40"><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/dog2cat2_c.gif'   width=800  ></a
