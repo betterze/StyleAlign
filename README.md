@@ -47,7 +47,7 @@ We demonstrate qualitatively and quantitatively that our approach yields state-o
     <a href="https://youtu.be/to0uCeTMMoM?t=68"><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/ffhq2dog2_c.gif'   width=400  ></a
 </p> 
 
-## Knowledge transfer from parent to child domain
+## Knowledge Transfer from Parent to Child Domain
   <p align="center">
     <a ><img src='https://github.com/betterze/StyleAlign/blob/main/img/knowledge.jpg'   width=800  ></a
 </p>   
