@@ -1,17 +1,10 @@
 # StyleAlign: Analysis and Applications of Aligned StyleGAN Models
 
-<p align="center">
-<figure>
-  <img src="https://github.com/betterze/StyleAlign/blob/main/img/model_progress/dog2cat0.gif" alt="Trulli" style="width:400">
-  <figcaption>Fig.1 - fasdgfasdgd.</figcaption>
-</figure>
-</p>
 
 
 <p align="center">
   <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/dog2cat0.gif'   width=400 ></a 
 </p>
-&ensp;&ensp;&ensp;
  <p align="center">
     <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/ffhq2dog0.gif'   width=400 ></a
 </p>
