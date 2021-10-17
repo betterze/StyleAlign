@@ -19,3 +19,17 @@ Second, equipped with this better understanding, we leverage aligned models to s
 In addition to image translation, we demonstrate fully automatic cross-domain image morphing.
 We further show that zero-shot vision tasks may be performed in the child domain, while relying exclusively on supervision in the parent domain.
 We demonstrate qualitatively and quantitatively that our approach yields state-of-the-art results, while requiring only simple fine-tuning and inversion. 
+
+    
+    
+## Shared Semantic Controls Between Parent and Child Models
+
+<p align="center">
+  <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/dog2cat0.gif'   width=400  ></a
+</p> 
+    
+    
+    
+    
+    
+    
