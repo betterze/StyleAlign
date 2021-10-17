@@ -5,9 +5,12 @@
 <p align="center">
   <a><img src='https://github.com/orpatashnik/StyleCLIP/blob/main/img/StyleCLIP_gif.gif' width=600 ></a>
   
-  https://user-images.githubusercontent.com/6877923/125816983-610905ce-dd7a-4cbc-8559-e1e61ed5e33c.mp4
+ 
 
-  
+  <video width="1280" height="720" controls autoplay muted loop>
+<source src=" https://user-images.githubusercontent.com/6877923/125816983-610905ce-dd7a-4cbc-8559-e1e61ed5e33c.mp4" type="video/mp4">
+ Your browser does not support the video tag.
+</video>
   
 </p>
 
