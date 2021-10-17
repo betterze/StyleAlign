@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://youtu.be/to0uCeTMMoM?t=6"><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/dog2cat0.gif'   width=400  ></a
     <a> &nbsp;&nbsp;&nbsp;</a
-    <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/ffhq2dog0.gif'   width=400 ></a
+    <a href="https://youtu.be/to0uCeTMMoM?t=14"><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/ffhq2dog0.gif'   width=400 ></a
 </p> 
 
 > **StyleAlign: Analysis and Applications of Aligned StyleGAN Models**<br>
@@ -25,20 +25,20 @@ We demonstrate qualitatively and quantitatively that our approach yields state-o
 ## Shared Semantic Controls Between Parent and Child Models
 
 <p align="center">
-  <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2cartoon2.gif'   width=800  ></a
+  <a href="https://youtu.be/to0uCeTMMoM?t=21"><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2cartoon2.gif'   width=800  ></a
 </p> 
 <p align="center">
-  <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2afhq2.gif'   width=1000  ></a
+  <a href="https://youtu.be/to0uCeTMMoM?t=21"><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2afhq2.gif'   width=1000  ></a
 </p> 
     
     
 ## Shared Semantic Controls Between Parent and Child Models
 
 <p align="center">
-  <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/dog2cat2_c.gif'   width=800  ></a
+  <a href="https://youtu.be/to0uCeTMMoM?t=40"><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/dog2cat2_c.gif'   width=800  ></a
 </p> 
 <p align="center">
-  <a><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/ffhq2dog2_c.gif'   width=800  ></a
+  <a href="https://youtu.be/to0uCeTMMoM?t=40"><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/ffhq2dog2_c.gif'   width=800  ></a
 </p>  
     
     
