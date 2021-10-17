@@ -2,7 +2,7 @@
 
 
 <figure>
-  <img src="https://github.com/betterze/StyleAlign/blob/main/img/model_progress/dog2cat0.gif" alt="Trulli" style="width:100%">
+  <img src="https://github.com/betterze/StyleAlign/blob/main/img/model_progress/dog2cat0.gif" alt="Trulli" style="width:400">
   <figcaption>Fig.1 - fasdgfasdgd.</figcaption>
 </figure>
 
