@@ -4,8 +4,7 @@
 
 <p align="center">
   <a href="https://youtu.be/to0uCeTMMoM?t=6"><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/dog2cat0.gif'   width=400  ></a
-    <a> &nbsp;&nbsp;&nbsp;</a
-    <a href="https://youtu.be/to0uCeTMMoM?t=14"><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/ffhq2dog0.gif'   width=400 ></a
+    <a> 
 </p> 
 
 Check our video here: <a href="https://youtu.be/to0uCeTMMoM?"><img src="https://img.shields.io/badge/-YouTube-red?&style=for-the-badge&logo=youtube&logoColor=white" height=20></a>
