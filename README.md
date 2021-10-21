@@ -3,11 +3,11 @@
 
 
 <p align="center">
-  <a href="https://youtu.be/to0uCeTMMoM?t=6"><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/ffhq2dog0.gif'   width=400  ></a
+  <a href="https://youtu.be/gjjo11IncP4?t=6"><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/ffhq2dog0.gif'   width=400  ></a
     <a> 
 </p> 
 
-Check our video here: <a href="https://youtu.be/to0uCeTMMoM?"><img src="https://img.shields.io/badge/-YouTube-red?&style=for-the-badge&logo=youtube&logoColor=white" height=20></a>
+Check our video here: <a href="https://youtu.be/gjjo11IncP4"><img src="https://img.shields.io/badge/-YouTube-red?&style=for-the-badge&logo=youtube&logoColor=white" height=20></a>
     
 > **StyleAlign: Analysis and Applications of Aligned StyleGAN Models**<br>
 > Zongze Wu, Yotam Nitzan, Eli Shechtman, Dani Lischinski <br>
@@ -27,10 +27,10 @@ We demonstrate qualitatively and quantitatively that our approach yields state-o
 ## Shared Semantic Controls Between Parent and Child Models
 
 <p align="center">
-  <a href="https://youtu.be/to0uCeTMMoM?t=21"><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2cartoon2.gif'   width=800  ></a
+  <a href=https://youtu.be/gjjo11IncP4?t=21"><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2cartoon2.gif'   width=800  ></a
 </p> 
 <p align="center">
-  <a href="https://youtu.be/to0uCeTMMoM?t=21"><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2afhq2.gif'   width=800  ></a
+  <a href="https://youtu.be/gjjo11IncP4?t=21"><img src='https://github.com/betterze/StyleAlign/blob/main/img/aligned_direction/ffhq2afhq2.gif'   width=800  ></a
 </p> 
     
 ## Image Translation
@@ -45,8 +45,8 @@ We demonstrate qualitatively and quantitatively that our approach yields state-o
 ## Cross-domain Image Morphing
 
 <p align="center">
-  <a href="https://youtu.be/to0uCeTMMoM?t=40"><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/dog2cat2_c.gif'   width=400  ></a
-    <a href="https://youtu.be/to0uCeTMMoM?t=68"><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/ffhq2dog2_c.gif'   width=400  ></a
+  <a href="https://youtu.be/gjjo11IncP4?t=40"><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/dog2cat2_c.gif'   width=400  ></a
+    <a href="https://youtu.be/gjjo11IncP4?t=68"><img src='https://github.com/betterze/StyleAlign/blob/main/img/morphing/ffhq2dog2_c.gif'   width=400  ></a
 </p> 
 
 ## Knowledge Transfer from Parent to Child Domain
