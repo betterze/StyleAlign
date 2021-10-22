@@ -10,7 +10,7 @@
 Check our video here: <a href="https://youtu.be/gjjo11IncP4"><img src="https://img.shields.io/badge/-YouTube-red?&style=for-the-badge&logo=youtube&logoColor=white" height=20></a>
     
 > **StyleAlign: Analysis and Applications of Aligned StyleGAN Models**<br>
-> [Zongze Wu](https://www.cs.huji.ac.il/~wuzongze/), Yotam Nitzan, Eli Shechtman, Dani Lischinski <br>
+> [Zongze Wu](https://www.cs.huji.ac.il/~wuzongze/), [Yotam Nitzan](https://yotamnitzan.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Dani Lischinski](https://pages.cs.huji.ac.il/danix/) <br>
 > https://arxiv.org/abs/2110.11323 <br>
 >
 >**Abstract:** In this paper, we perform an in-depth study of the properties and applications of **aligned generative models**.
