@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <a href="https://youtu.be/gjjo11IncP4?t=6"><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/ffhq2dog0.gif'   width=400  ></a
+  <a href="https://youtu.be/gjjo11IncP4?t=6"><img src='https://github.com/betterze/StyleAlign/blob/main/img/model_progress/ffhq2dog0.gif'   width=600  ></a
     <a> 
 </p> 
 
