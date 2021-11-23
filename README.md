@@ -23,7 +23,7 @@ We further show that zero-shot vision tasks may be performed in the child domain
 We demonstrate qualitatively and quantitatively that our approach yields state-of-the-art results, while requiring only simple fine-tuning and inversion. 
 
     
-## Code will be realeased before Dec !!!
+## Full Codes will be realeased before Dec !!!
 
 ## Image-to-Image Translation 
 
