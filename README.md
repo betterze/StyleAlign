@@ -37,10 +37,10 @@ We demonstrate qualitatively and quantitatively that our approach yields state-o
 ## Image Translation
 
 <p align="center">
-  <a ><img src='https://github.com/betterze/StyleAlign/blob/main/translate/ffhq2dog.jpg'   width=800  ></a
+  <a ><img src='https://github.com/betterze/StyleAlign/blob/main/img/translate/ffhq2dog.jpg'   width=800  ></a
 </p> 
 <p align="center">
-    <a ><img src='https://github.com/betterze/StyleAlign/blob/main/translate/ffhq2mega2.jpg'   width=800  ></a
+    <a ><img src='https://github.com/betterze/StyleAlign/blob/main/img/translate/ffhq2mega2.jpg'   width=800  ></a
 </p> 
  
 ## Cross-domain Image Morphing
