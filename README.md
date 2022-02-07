@@ -36,8 +36,8 @@ gdown --fuzzy 'https://drive.google.com/drive/folders/1MqCHQ6Yx-eon-3fu1g_AGjpyA
 
   ```
 source_img_path='./example/dog/'   
-source_path='./img_invert/ffhq512_dog/z/'  # path for save inverted latent codes and images
-target_path='./img_invert/ffhq512_dog/translate/cat/' #path for translation images 
+source_path='./img_invert/ffhq512_dog/z/'  # path for saving inverted latent codes and images
+target_path='./img_invert/ffhq512_dog/translate/cat/' #path for saving translation images 
 
 source_pkl='./checkpoint/ffhq512_dog.pkl'
 target_pkl='./checkpoint/ffhq512_dog_cat.pkl'
