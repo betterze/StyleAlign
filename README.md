@@ -23,7 +23,7 @@ We further show that zero-shot vision tasks may be performed in the child domain
 We demonstrate qualitatively and quantitatively that our approach yields state-of-the-art results, while requiring only simple fine-tuning and inversion. 
 
 ## pretrained checkpoint
-The pretrained checkpoints could be downloaded from [here]((https://drive.google.com/drive/folders/1MqCHQ6Yx-eon-3fu1g_AGjpyAUmzH6Jy?usp=sharing)). The FFHQ model is from [StyleGAN2 repo](https://github.com/NVlabs/stylegan2). The FFHQ512, FFHQ512_dog, FFHQ512_cat, FFHQ512_wild models are from [StyleGAN2-ada repo](https://github.com/NVlabs/stylegan2-ada). Other models are trained or fine tuning by ourselves.
+The pretrained checkpoints could be downloaded from [here](https://drive.google.com/drive/folders/1MqCHQ6Yx-eon-3fu1g_AGjpyAUmzH6Jy?usp=sharing). The FFHQ model is from [StyleGAN2 repo](https://github.com/NVlabs/stylegan2). The FFHQ512, FFHQ512_dog, FFHQ512_cat, FFHQ512_wild models are from [StyleGAN2-ada repo](https://github.com/NVlabs/stylegan2-ada). Other models are trained or fine tuning by ourselves.
 	
 ## Image-to-Image Translation 
 
