@@ -11,15 +11,9 @@
 '''The projector_z is based on the stylegan-ada projector'''
 
 import os
-os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"] = "1" #(or "1" or "2")
-
-
 import argparse
-
 import pickle
 import imageio
-
 import numpy as np
 import PIL.Image
 import tensorflow as tf
