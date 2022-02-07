@@ -22,7 +22,7 @@ In addition to image translation, we demonstrate fully automatic cross-domain im
 We further show that zero-shot vision tasks may be performed in the child domain, while relying exclusively on supervision in the parent domain.
 We demonstrate qualitatively and quantitatively that our approach yields state-of-the-art results, while requiring only simple fine-tuning and inversion. 
 
-
+## [pretrained checkpoint](https://drive.google.com/drive/folders/1MqCHQ6Yx-eon-3fu1g_AGjpyAUmzH6Jy?usp=sharing)
 ## Image-to-Image Translation 
 
   ```
