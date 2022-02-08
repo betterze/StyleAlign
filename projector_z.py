@@ -250,7 +250,7 @@ def project2(network_pkl: str, target_fname: str, outdir: str, save_video: bool,
         writer = None
         if save_video:
             #tmp=f'{outdir}/{save_name}.mp4'
-            tmp=os.path.join([outdir,save_name])+'.mp4'
+            tmp=os.path.join(outdir,save_name)+'.mp4'
             writer = imageio.get_writer(tmp, mode='I', fps=60, codec='libx264', bitrate='16M')
     
         # Run projector.
@@ -263,7 +263,7 @@ def project2(network_pkl: str, target_fname: str, outdir: str, save_video: bool,
                 t.set_postfix(dist=f'{dist[0]:.4f}', loss=f'{loss:.2f}')
     
         # Save results.
-        tmp=os.path.join([outdir,save_name])
+        tmp=os.path.join(outdir,save_name)
         PIL.Image.fromarray(proj.images_uint8[0], 'RGB').save(tmp+'.jpg')
         np.savez(tmp+'.npz', dlatents=proj.dlatents)
         if writer is not None:
