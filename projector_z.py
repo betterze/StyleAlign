@@ -229,7 +229,7 @@ def project2(network_pkl: str, target_fname: str, outdir: str, save_video: bool,
         target_name=target_names[i]
         print(target_name)
         # Load target image.
-        target_fname=target_dir+target_name
+        target_fname=os.path.join(target_dir,target_name)
         target_pil = PIL.Image.open(target_fname)
         save_name=target_fname.split('/')[-1].split('.')[0]
         w, h = target_pil.size
@@ -249,7 +249,9 @@ def project2(network_pkl: str, target_fname: str, outdir: str, save_video: bool,
 #        target_pil.save(f'{outdir}/{save_name}_target.png')
         writer = None
         if save_video:
-            writer = imageio.get_writer(f'{outdir}/{save_name}.mp4', mode='I', fps=60, codec='libx264', bitrate='16M')
+            #tmp=f'{outdir}/{save_name}.mp4'
+            tmp=os.path.join([outdir,save_name])+'.mp4'
+            writer = imageio.get_writer(tmp, mode='I', fps=60, codec='libx264', bitrate='16M')
     
         # Run projector.
         with tqdm.trange(proj.num_steps) as t:
@@ -261,8 +263,9 @@ def project2(network_pkl: str, target_fname: str, outdir: str, save_video: bool,
                 t.set_postfix(dist=f'{dist[0]:.4f}', loss=f'{loss:.2f}')
     
         # Save results.
-        PIL.Image.fromarray(proj.images_uint8[0], 'RGB').save(f'{outdir}/{save_name}.jpg')
-        np.savez(f'{outdir}/{save_name}.npz', dlatents=proj.dlatents)
+        tmp=os.path.join([outdir,save_name])
+        PIL.Image.fromarray(proj.images_uint8[0], 'RGB').save(tmp+'.jpg')
+        np.savez(tmp+'.npz', dlatents=proj.dlatents)
         if writer is not None:
             writer.close()
 
