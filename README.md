@@ -92,7 +92,9 @@ python Compare.py --source_img_path $source_img_path \
 ## Knowledge Transfer from Parent to Child Domain
   <p align="center">
     <a ><img src='https://github.com/betterze/StyleAlign/blob/main/img/knowledge.jpg'   width=800  ></a
-</p>   
+</p>  
+		   
+		   
 ## Citation
 
 If you use this code for your research, please cite our paper:
