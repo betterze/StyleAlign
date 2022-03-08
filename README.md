@@ -93,3 +93,16 @@ python Compare.py --source_img_path $source_img_path \
   <p align="center">
     <a ><img src='https://github.com/betterze/StyleAlign/blob/main/img/knowledge.jpg'   width=800  ></a
 </p>   
+## Citation
+
+If you use this code for your research, please cite our paper:
+
+```
+@article{wu2021stylealign,
+  title={StyleAlign: Analysis and Applications of Aligned StyleGAN Models},
+  author={Wu, Zongze and Nitzan, Yotam and Shechtman, Eli and Lischinski, Dani},
+  journal={arXiv preprint arXiv:2110.11323},
+  year={2021}
+}
+```
+		   
