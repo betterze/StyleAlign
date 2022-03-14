@@ -21,7 +21,10 @@ Second, equipped with this better understanding, we leverage aligned models to s
 In addition to image translation, we demonstrate fully automatic cross-domain image morphing.
 We further show that zero-shot vision tasks may be performed in the child domain, while relying exclusively on supervision in the parent domain.
 We demonstrate qualitatively and quantitatively that our approach yields state-of-the-art results, while requiring only simple fine-tuning and inversion. 
-
+	
+## suage
+Train a parent [StyleGAN](https://github.com/NVlabs/stylegan2-ada) model in domain A, then use the parent model weights as initiation for child model (by adding the --resume flag) and fine tune it in domain B. In this way, we obtain the aligned parent and child models, and we could perform image translation or morphing using the following codes. 
+	
 ## pretrained checkpoint
 The pretrained checkpoints could be downloaded from [here](https://drive.google.com/drive/folders/1MqCHQ6Yx-eon-3fu1g_AGjpyAUmzH6Jy?usp=sharing). The FFHQ model is from [StyleGAN2 repo](https://github.com/NVlabs/stylegan2). The FFHQ512, FFHQ512_dog, FFHQ512_cat, FFHQ512_wild models are from [StyleGAN2-ada repo](https://github.com/NVlabs/stylegan2-ada). Other models are trained or fine tuning by ourselves.
 
