@@ -11,7 +11,7 @@ Check our video here: <a href="https://youtu.be/gjjo11IncP4"><img src="https://i
     
 > **StyleAlign: Analysis and Applications of Aligned StyleGAN Models**<br>
 > [Zongze Wu](https://www.cs.huji.ac.il/~wuzongze/), [Yotam Nitzan](https://yotamnitzan.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Dani Lischinski](https://pages.cs.huji.ac.il/danix/) <br>
-> https://arxiv.org/abs/2110.11323 <br>
+> https://openreview.net/pdf?id=Qg2vi4ZbHM9 <br>
 >
 >**Abstract:** In this paper, we perform an in-depth study of the properties and applications of **aligned generative models**.
 We refer to two models as aligned if they share the same architecture, and one of them (the **child**) is obtained from the other (the **parent**) via fine-tuning to another domain, a common practice in transfer learning.
