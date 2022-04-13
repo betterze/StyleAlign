@@ -22,7 +22,7 @@ In addition to image translation, we demonstrate fully automatic cross-domain im
 We further show that zero-shot vision tasks may be performed in the child domain, while relying exclusively on supervision in the parent domain.
 We demonstrate qualitatively and quantitatively that our approach yields state-of-the-art results, while requiring only simple fine-tuning and inversion. 
 	
-## suage
+## usage
 Train a parent [StyleGAN](https://github.com/NVlabs/stylegan2-ada) model in domain A, then use the parent model weights as initiation for child model (by adding the --resume flag) and fine tune it in domain B. In this way, we obtain the aligned parent and child models, and we could perform image translation or morphing using the following codes. 
 	
 ## pretrained checkpoint
