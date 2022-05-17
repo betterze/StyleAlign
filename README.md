@@ -65,7 +65,7 @@ python Compare.py --source_img_path $source_img_path \
   ```
 
 ## Cross-domain Image Morphing
-To morph image from different domains, please train [e4e](https://github.com/omertov/encoder4editing) encoder in each doamin, and invert the images into w+ space. We provide pretrained e4e models for FFHQ512, FFHQ512_dog, FFHQ512_dog_cat in [here](https://drive.google.com/drive/folders/1MqCHQ6Yx-eon-3fu1g_AGjpyAUmzH6Jy). We use w+ space for better image reconstruction (compared to z space). 
+To morph image from different domains, please train an [e4e](https://github.com/omertov/encoder4editing) encoder in each doamin, and invert the images into w+ space. We provide pretrained e4e models for FFHQ512, FFHQ512_dog, FFHQ512_dog_cat in [here](https://drive.google.com/drive/folders/1MqCHQ6Yx-eon-3fu1g_AGjpyAUmzH6Jy). We use w+ space for better image reconstruction (compared to z space). 
 	
   ```
 source_pkl='./checkpoint/ffhq512_dog.pkl'
