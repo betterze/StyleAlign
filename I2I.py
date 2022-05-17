@@ -7,8 +7,6 @@ Created on Tue Nov 23 04:06:23 2021
 """
 
 import os
-os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"] = "1" #(or "1" or "2")
 
 import argparse
 import pickle
