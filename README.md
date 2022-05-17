@@ -64,7 +64,30 @@ python Compare.py --source_img_path $source_img_path \
   
   ```
 
-  
+## Cross-domain Image Morphing
+To morph image from different domains, please train [e4e](https://github.com/omertov/encoder4editing) encoder in each doamin, and invert the images into w+ space. We provide pretrained e4e models for FFHQ512, FFHQ512_dog, FFHQ512_dog_cat in [here](https://drive.google.com/drive/folders/1MqCHQ6Yx-eon-3fu1g_AGjpyAUmzH6Jy). We use w+ space for better image reconstruction (compared to z space). 
+	
+  ```
+source_pkl='./checkpoint/ffhq512_dog.pkl'
+target_pkl='./checkpoint/ffhq512_dog_cat.pkl'
+source_latent='./img_invert/ffhq512_dog/e4e_w_plus/flickr_dog_000043.npy' #w_plus 
+target_latent='./img_invert/ffhq512_dog_cat/e4e_w_plus/flickr_cat_000008.npy' #w_plus 
+
+python MergeFace.py --source_pkl $source_pkl --target_pkl $target_pkl --source_latent $source_latent --target_latent $target_latent
+  ```
+	
+We can also translate an image from source to target domian and create a smooth video. We use w+ space in source domain for better reconstruction, and z space in target domain for better translation. Please add --target_is_z flag in the end. 
+	
+ ```
+source_pkl='./checkpoint/ffhq512_dog.pkl'
+target_pkl='./checkpoint/ffhq512_dog_cat.pkl'
+source_latent='./img_invert/ffhq512_dog/e4e_w_plus/flickr_dog_000045.npy'  # w
+target_latent='./img_invert/ffhq512_dog/z/flickr_dog_000045.npz'  # z
+
+python MergeFace.py --source_pkl $source_pkl --target_pkl $target_pkl --source_latent $source_latent --target_latent $target_latent --target_is_z
+  ```
+	
+	
   
 
 ## Shared Semantic Controls Between Parent and Child Models
