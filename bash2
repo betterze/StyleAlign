@@ -1,0 +1,20 @@
+#!/bin/sh
+
+source_pkl='./checkpoint/ffhq512_dog.pkl'
+target_pkl='./checkpoint/ffhq512_dog_cat.pkl'
+source_latent='./img_invert/ffhq512_dog/e4e_w_plus/flickr_dog_000043.npy'
+target_latent='./img_invert/ffhq512_dog_cat/e4e_w_plus/flickr_cat_000008.npy'
+
+python MergeFace.py --source_pkl $source_pkl --target_pkl $target_pkl --source_latent $source_latent --target_latent $target_latent
+
+
+source_pkl='./checkpoint/ffhq512_dog.pkl'
+target_pkl='./checkpoint/ffhq512_dog_cat.pkl'
+source_latent='./img_invert/ffhq512_dog/e4e_w_plus/flickr_dog_000045.npy'
+target_latent='./img_invert/ffhq512_dog/z/flickr_dog_000045.npz'
+
+python MergeFace.py --source_pkl $source_pkl --target_pkl $target_pkl --source_latent $source_latent --target_latent $target_latent --target_is_z
+
+
+
+

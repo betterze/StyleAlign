@@ -33,17 +33,39 @@ def LoadModel(model_path):
 def lerp(a,b,t):
      return a + (b - a) * t
 
+def Truncation(src_dlatents,dlatent_avg,truncation_psi,truncation_cutoff):
+    layer_idx = np.arange(src_dlatents.shape[1])[np.newaxis, :, np.newaxis]
+    ones = np.ones(layer_idx.shape, dtype=np.float32)
+    
+    if truncation_cutoff is None:
+        coefs = ones*truncation_psi
+    else:
+        coefs = np.where(layer_idx < truncation_cutoff, truncation_psi * ones, ones)
+    src_dlatents_np=lerp(dlatent_avg, src_dlatents, coefs)
+    return src_dlatents_np
 
 class MergeFace():
-    def __init__(self,source_pkl,target_pkl,source_latent,target_latent):
+    def __init__(self,source_pkl,target_pkl,source_latent,target_latent,target_is_z):
         
         self.Gs=LoadModel(source_pkl)
         self.Gs1=LoadModel(source_pkl)
         self.Gs2=LoadModel(target_pkl)
         
-
+        
         self.w_plus1=np.load(source_latent)
-        self.w_plus2=np.load(target_latent)
+        
+        if target_is_z:
+            z=np.load(target_latent)['dlatents']
+            w_plus2= self.Gs2.components.mapping.run(z, None)
+            
+            dlatent_avg=self.Gs2.get_var('dlatent_avg')
+            truncation_psi=0.5  #default value of StyleGAN2
+            truncation_cutoff=None #default value of StyleGAN2
+            self.w_plus2 =Truncation(w_plus2,dlatent_avg,truncation_psi,truncation_cutoff)
+            
+            
+        else:
+            self.w_plus2=np.load(target_latent)
         
         self.GetWeightName()
         self.fmt = dict(func=tflib.convert_images_to_uint8, nchw_to_nhwc=True)
@@ -105,6 +127,7 @@ def main():
     parser.add_argument('--target_pkl',      help='', required=True)
     parser.add_argument('--source_latent',     help='', required=True)
     parser.add_argument('--target_latent',     help='', required=True)
+    parser.add_argument('--target_is_z', action='store_true', )
     
     M=MergeFace(**vars(parser.parse_args()))
     
