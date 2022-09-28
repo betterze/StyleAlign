@@ -21,7 +21,19 @@ Second, equipped with this better understanding, we leverage aligned models to s
 In addition to image translation, we demonstrate fully automatic cross-domain image morphing.
 We further show that zero-shot vision tasks may be performed in the child domain, while relying exclusively on supervision in the parent domain.
 We demonstrate qualitatively and quantitatively that our approach yields state-of-the-art results, while requiring only simple fine-tuning and inversion. 
-	
+
+## Requirements
+The codes are based on [stylegan2-ada](https://github.com/NVlabs/stylegan2-ada#requirements). The environmental requirements (from stylegan2-ada) are listed below:
+
+* Linux and Windows are supported, but we recommend Linux for performance and compatibility reasons.
+* 64-bit Python 3.6 or 3.7. We recommend Anaconda3 with numpy 1.14.3 or newer.
+* We recommend TensorFlow 1.14, which we used for all experiments in the paper, but TensorFlow 1.15 is also supported on Linux. TensorFlow 2.x is not supported.
+* On Windows you need to use TensorFlow 1.14, as the standard 1.15 installation does not include necessary C++ headers.
+* 1&ndash;8 high-end NVIDIA GPUs with at least 12 GB of GPU memory, NVIDIA drivers, CUDA 10.0 toolkit and cuDNN 7.5.
+* Docker users: use the [provided Dockerfile](./Dockerfile) to build an image with the required library dependencies.
+
+The generator and discriminator networks rely heavily on custom TensorFlow ops that are compiled on the fly using NVCC. On Windows, the compilation requires Microsoft Visual Studio to be in `PATH`. We recommend installing [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/) and adding it into `PATH` using `"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"`.
+
 ## usage
 Train a parent [StyleGAN](https://github.com/NVlabs/stylegan2-ada) model in domain A, then use the parent model weights as initiation for child model (by adding the --resume flag) and fine tune it in domain B. In this way, we obtain the aligned parent and child models, and we could perform image translation or morphing using the following codes. 
 	
