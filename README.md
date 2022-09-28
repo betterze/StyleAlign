@@ -35,7 +35,7 @@ The codes are based on [StyleGAN2-ada](https://github.com/NVlabs/stylegan2-ada#r
 The generator and discriminator networks rely heavily on custom TensorFlow ops that are compiled on the fly using NVCC. On Windows, the compilation requires Microsoft Visual Studio to be in `PATH`. We recommend installing [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/) and adding it into `PATH` using `"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"`.
 
 ## usage
-Train a parent [StyleGAN2](https://github.com/NVlabs/stylegan2-ada) or [StyleGAN2-ada] model in domain A, then use the parent model weights as initiation for child model (by adding the --resume flag) and fine tune it in domain B. In this way, we obtain the aligned parent and child models, and we could perform image translation or morphing using the following codes. 
+Train a parent [StyleGAN2](https://github.com/NVlabs/stylegan2-ada) or [StyleGAN2-ada](https://github.com/NVlabs/stylegan2-ada) model in domain A, then use the parent model weights as initiation for child model (by adding the --resume flag) and fine tune it in domain B. In this way, we obtain the aligned parent and child models, and we could perform image translation or morphing using the following codes. 
 	
 ## pretrained checkpoint
 The pretrained checkpoints could be downloaded from [here](https://drive.google.com/drive/folders/1MqCHQ6Yx-eon-3fu1g_AGjpyAUmzH6Jy?usp=sharing). The FFHQ model is from [StyleGAN2 repo](https://github.com/NVlabs/stylegan2). The FFHQ512, FFHQ512_dog, FFHQ512_cat, FFHQ512_wild models are from [StyleGAN2-ada repo](https://github.com/NVlabs/stylegan2-ada). Other models are trained or fine tuning by ourselves.
